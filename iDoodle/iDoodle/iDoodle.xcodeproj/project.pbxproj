@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1816ED3D13A9C9F1000F5CF1 /* soundMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816ED3C13A9C9F1000F5CF1 /* soundMusic.m */; };
 		181FFB1013A5C9C3004A7C34 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181FFB0F13A5C9C3004A7C34 /* QuartzCore.framework */; };
 		181FFB1213A5C9C3004A7C34 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181FFB1113A5C9C3004A7C34 /* OpenGLES.framework */; };
 		181FFB1413A5C9C3004A7C34 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181FFB1313A5C9C3004A7C34 /* OpenAL.framework */; };
@@ -145,6 +146,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1816ED3913A9C9C6000F5CF1 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
+		1816ED3B13A9C9E6000F5CF1 /* soundMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = soundMusic.h; path = ../soundMusic.h; sourceTree = "<group>"; };
+		1816ED3C13A9C9F1000F5CF1 /* soundMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = soundMusic.m; path = ../soundMusic.m; sourceTree = "<group>"; };
 		181FFB0B13A5C9C3004A7C34 /* iDoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDoodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181FFB0F13A5C9C3004A7C34 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		181FFB1113A5C9C3004A7C34 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -461,6 +465,9 @@
 		181FFB1F13A5C9C3004A7C34 /* iDoodle */ = {
 			isa = PBXGroup;
 			children = (
+				1816ED3B13A9C9E6000F5CF1 /* soundMusic.h */,
+				1816ED3C13A9C9F1000F5CF1 /* soundMusic.m */,
+				1816ED3913A9C9C6000F5CF1 /* SynthesizeSingleton.h */,
 				181FFD0113A5DB44004A7C34 /* doodleScreen.xib */,
 				181FFC8A13A5D7C2004A7C34 /* doodleLayer.h */,
 				181FFC8B13A5D7D1004A7C34 /* doodleLayer.m */,
@@ -988,6 +995,7 @@
 				181FFC7513A5C9C6004A7C34 /* AppDelegate.m in Sources */,
 				181FFC7813A5C9C6004A7C34 /* RootViewController.m in Sources */,
 				181FFC8C13A5D7D1004A7C34 /* doodleLayer.m in Sources */,
+				1816ED3D13A9C9F1000F5CF1 /* soundMusic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

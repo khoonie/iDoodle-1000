@@ -1,5 +1,5 @@
 #import "cocos2d.h"
-
+#import "soundMusic.h"
 
 @protocol sliderDelegate;
 
@@ -15,6 +15,7 @@
     CCParticleSystem *emitter;
     CCParticleSystem *emitter2;
     CCRenderTexture *target;
+    SoundMusic *sm;
 }
 
 

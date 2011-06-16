@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1816ED3D13A9C9F1000F5CF1 /* soundMusic.m in Sources */ = {isa = PBXBuildFile; fileRef = 1816ED3C13A9C9F1000F5CF1 /* soundMusic.m */; };
+		1816ED4713A9D473000F5CF1 /* harp1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1816ED4613A9D473000F5CF1 /* harp1.wav */; };
+		1816ED4913A9D479000F5CF1 /* harp2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1816ED4813A9D479000F5CF1 /* harp2.wav */; };
 		181FFB1013A5C9C3004A7C34 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181FFB0F13A5C9C3004A7C34 /* QuartzCore.framework */; };
 		181FFB1213A5C9C3004A7C34 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181FFB1113A5C9C3004A7C34 /* OpenGLES.framework */; };
 		181FFB1413A5C9C3004A7C34 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181FFB1313A5C9C3004A7C34 /* OpenAL.framework */; };
@@ -149,6 +151,8 @@
 		1816ED3913A9C9C6000F5CF1 /* SynthesizeSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynthesizeSingleton.h; sourceTree = "<group>"; };
 		1816ED3B13A9C9E6000F5CF1 /* soundMusic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = soundMusic.h; path = ../soundMusic.h; sourceTree = "<group>"; };
 		1816ED3C13A9C9F1000F5CF1 /* soundMusic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = soundMusic.m; path = ../soundMusic.m; sourceTree = "<group>"; };
+		1816ED4613A9D473000F5CF1 /* harp1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = harp1.wav; path = ../../../Desktop/iDoodle/harp1.wav; sourceTree = "<group>"; };
+		1816ED4813A9D479000F5CF1 /* harp2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = harp2.wav; path = ../../../Desktop/iDoodle/harp2.wav; sourceTree = "<group>"; };
 		181FFB0B13A5C9C3004A7C34 /* iDoodle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDoodle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181FFB0F13A5C9C3004A7C34 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		181FFB1113A5C9C3004A7C34 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -426,9 +430,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1816ED4A13A9D47C000F5CF1 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				1816ED4613A9D473000F5CF1 /* harp1.wav */,
+				1816ED4813A9D479000F5CF1 /* harp2.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		181FFB0013A5C9C3004A7C34 = {
 			isa = PBXGroup;
 			children = (
+				1816ED4A13A9D47C000F5CF1 /* Sounds */,
 				18E6BC5A13A8C63200BF8514 /* icon.png */,
 				18E6BC5413A8C45A00BF8514 /* Default-Portrait~ipad.png */,
 				18E6BC5213A8C3F400BF8514 /* Default-Landscape~ipad.png */,
@@ -885,6 +899,8 @@
 				18E6BC5313A8C3F400BF8514 /* Default-Landscape~ipad.png in Resources */,
 				18E6BC5513A8C45A00BF8514 /* Default-Portrait~ipad.png in Resources */,
 				18E6BC5B13A8C63200BF8514 /* icon.png in Resources */,
+				1816ED4713A9D473000F5CF1 /* harp1.wav in Resources */,
+				1816ED4913A9D479000F5CF1 /* harp2.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

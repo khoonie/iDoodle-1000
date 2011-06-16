@@ -1,4 +1,5 @@
 #import "doodleLayer.h"
+#import "soundMusic.h"
 
 // HelloWorldLayer implementation
 @implementation doodleLayer
@@ -67,6 +68,8 @@
         emitter2.position = ccp(64, 640);
         [self addChild:emitter2 z:3];
         
+        sm = [SoundMusic sharedSoundMusic];
+        [sm init];
 		}
 	return self;
 }
@@ -91,6 +94,9 @@
     emitter.position = ccp(currentX+128, 386);
     
     [self addChild:emitter z:3];
+    
+    
+    [sm playSoundEffect:0];
     
     [target begin];
     if (previousX < currentX) {
@@ -122,6 +128,8 @@
     int y= 640 - (i*128);
     [emitter2 stopSystem];
     [self removeChild:emitter2 cleanup:YES];
+    
+    [sm playSoundEffect:1];
     
     switch (i) {
         case 0:
